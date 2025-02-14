@@ -1,7 +1,8 @@
-import "./style/root.css";
+import Main from "../main/index";
+import "../src/common/style/root.css";
 const App = () => {
   return (
-    <div>App</div>
+    <div><Main /></div>
   )
 }
 
